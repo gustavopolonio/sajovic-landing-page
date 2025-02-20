@@ -1,43 +1,50 @@
+import { Link } from 'react-router-dom'
+import WhatsAppLogo from '/whatsapp.png'
+import heroImage from '/hero.png'
+
 export const Hero = () => {
   return (
-    <section className="flex flex-col relative min-h-[717px] w-full text-[#010101] font-bold text-center">
+    <section className="flex flex-col relative w-full text-[#010101] font-bold text-center">
       <img
         loading="lazy"
-        srcSet="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/754f9c2cbb3a045d511275f1cb29702aa26abd4cffacb81a49336adfa8e6fc82?placeholderIfAbsent=true"
+        src={heroImage}
         className="absolute h-full w-full object-cover inset-0"
         alt="Hero Background"
       />
-      <div className="relative bg-[rgba(0,0,0,0.72)] flex w-full flex-col items-center justify-center px-20 py-[91px] max-md:max-w-full max-md:px-5">
+      <div className="relative bg-[rgba(0,0,0,0.72)] text-white flex w-full flex-col items-center justify-center px-20 py-[91px] max-lg:px-5 max-lg:py-[72px] max-md:py-[46px]">
         <div className="flex w-[884px] max-w-full flex-col items-center">
-          <h1 className="text-[#010100] text-[62px] max-md:max-w-full max-md:text-[40px]">
+          <h1 className="font-serif text-[#C9A86A] text-[62px] max-lg:text-[49.6px] max-lg:leading-[59.2px] max-md:max-w-full max-md:text-[40px] text- max-md:leading-[44px]">
             SAJOVIC SOCIEDADE DE ADVOGADOS
           </h1>
-          <h2 className="text-[44px] self-stretch mt-[66px] max-md:max-w-full max-md:mt-10">
+          <h2 className="font-serif text-[44px] self-stretch mt-[50px] max-lg:text-[35.2px] max-md:max-w-full max-md:mt-10 max-md:text-[28px]">
             ADVOCACIA CRIMINAL ESPECIALIZADA
-            <br />
           </h2>
-          <p className="text-[32px] mt-[91px] max-md:max-w-full max-md:mt-10">
+          <p className="text-[32px] mt-[67px] max-lg:text-[25.6px] max-md:max-w-full max-md:text-xl max-md:mt-8">
             ATENDIMENTO 24 HORAS PARA FLAGRANTES E DELEGACIAS
-            <br />
-            <br />
           </p>
-          <p className="text-[32px] mt-[29px]">BAURU E TODA REGIÃO</p>
-          <div className="flex w-[624px] max-w-full items-stretch gap-[40px_75px] flex-wrap mt-[79px] max-md:mt-10">
-            <button className="shadow-[6px_6px_4px_rgba(0,0,0,0.25)] flex gap-[17px] overflow-hidden text-2xl whitespace-nowrap px-[26px] py-4 rounded-2xl max-md:px-5 hover:bg-primary/10 transition-colors">
+          <p className="text-[32px] mt-[13px] max-lg:text-[25.6px] max-md:text-xl max-md:mt-8">
+            BAURU E TODA REGIÃO
+          </p>
+          <div className="flex w-[624px] max-w-full items-stretch gap-[40px_75px] flex-wrap mt-[69px] max-md:flex-col max-md:items-center max-md:mt-9 max-md:gap-8">
+            <Link
+              to="https://wa.me/+5514997501026"
+              target="_blank"
+              className="bg-whatsapp-button shadow-[6px_6px_4px_rgba(0,0,0,0.25)] flex gap-[17px] overflow-hidden text-2xl whitespace-nowrap px-[26px] py-4 rounded-2xl max-md:px-5 transition-opacity duration-300 hover:opacity-85 max-md:py-3"
+            >
               <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/9d4f2297a6736e4b241d593a36f2b08593a9a97aad949943939a89267a98760d?placeholderIfabsent=true&width=2000 2000w"
+                src={WhatsAppLogo}
                 className="aspect-[1] object-contain w-7 shrink-0"
                 alt="Contact Icon"
               />
               <span>Contato</span>
-            </button>
-            <div className="text-[32px] grow shrink w-[311px] basis-auto my-auto">
+            </Link>
+            <div className="text-[32px] grow shrink w-[311px] basis-auto my-auto max-lg:text-[25.6px] max-md:text-xl">
               Telefone (14) 99750-1026
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

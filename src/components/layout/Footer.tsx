@@ -1,29 +1,37 @@
+import { Link } from 'react-router-dom'
+
 export const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8">
+    <footer
+      id="contact"
+      className="bg-black text-white py-10 bg-[url(/footerBackground.jpg)] bg-cover bg-center bg-no-repeat"
+    >
       <div className="max-w-[1080px] mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
+        <div className="flex flex-col justify-between gap-8 md:flex-row">
+          <div className="space-y-[22px]">
+            <div className="flex items-center gap-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/352de713cf3d99889360736d794fab38c79466dcffc27084bda50701a35efc82"
-                alt="Phone"
+                loading="lazy"
+                src="/whatsapp-white.png"
+                alt="Telefone contato Sajovic Sociedade de Advogados"
                 className="w-6 h-6"
               />
               <span>(14) 99750-1026</span>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/3c91284fd250ac43c538511c65cece3a511ffb2e77d351208aa69e072adf29e7"
-                alt="Email"
+                loading="lazy"
+                src="/email-white.png"
+                alt="Email contato Sajovic Sociedade de Advogados"
                 className="w-6 h-6"
               />
               <span>gabriel_sajovic@hotmail.com</span>
             </div>
-            <div className="flex items-start gap-3">
+            <div className="flex items-start gap-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/fadae5f8af023c3daac3a21d225f4d91889c311d33871135ca8ee0ca664a317e"
-                alt="Location"
+                loading="lazy"
+                src="/pin-white.png"
+                alt="Localização Sajovic Sociedade de Advogados"
                 className="w-6 h-6 mt-1"
               />
               <div>
@@ -31,10 +39,11 @@ export const Footer = () => {
                 <p>CEP 17012-120 – Bauru/SP</p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/ce2a095a59b16b3a2668ba992e584b6441ee3cc4356ba26fece9739093204fb2"
-                alt="Hours"
+                loading="lazy"
+                src="/clock-white.png"
+                alt="Horário de atendimento Sajovic Sociedade de Advogados"
                 className="w-6 h-6"
               />
               <div>
@@ -43,36 +52,26 @@ export const Footer = () => {
                 <p>Mediante Agendamento prévio</p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/00f014b46435cc0bfeafeab765cf1cb44b286dce258de297c3b53b0627cd9dab"
-                alt="Social"
+                loading="lazy"
+                src="/instagram-white.png"
+                alt="Instagram Sajovic Sociedade de Advogados"
                 className="w-6 h-6"
               />
-              <span>@ ADV.SAJOVIC</span>
+              <Link to="https://www.instagram.com/adv.sajovic" target="_blank">
+                @ ADV.SAJOVIC
+              </Link>
             </div>
           </div>
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/4dd7709355144ddb9dd788327b04a8c8/f3a66cd9964de8fd019648d6a90b328ce3045f0d12da6ffe2c1a020f18433233"
-            alt="Office Map"
-            className="aspect-[1.32] object-contain w-full md:w-1/2 rounded-xl"
-          />
-        </div>
-        <div className="text-center mt-8 text-sm">
-          <p>
-            Sajovic Sociedade de Advogados – Todos os direitos reservados |
-            Desenvolvido por{" "}
-            <a
-              href="https://www.linkedin.com/in/gustavo-polonio/"
-              className="underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Gustavo Polonio
-            </a>
-          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.482401072861!2d-49.06851823165583!3d-22.33540692721951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf670c89379cef%3A0x43fe19376694fad5!2sR.%20Vivaldo%20Guimar%C3%A3es%2C%2017-30%20-%20Vila%20Universitaria%2C%20Bauru%20-%20SP%2C%2017015-351!5e0!3m2!1sen!2sbr!4v1739923836360!5m2!1sen!2sbr"
+            className="w-[520px] h-[390px] rounded-xl max-lg:w-[400px] max-md:w-full"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
