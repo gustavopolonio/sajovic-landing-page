@@ -1,4 +1,4 @@
-import { Carousel } from '@/components/ui/Carousel'
+import { Slick } from '@/components/ui/Slick'
 import { ServiceCard } from '@/components/ui/ServiceCard'
 
 const services = [
@@ -74,7 +74,7 @@ export const Services = () => {
         Nossos Serviços
       </h2>
 
-      <Carousel
+      <Slick
         rows={2}
         slidesToShow={3}
         slidesToScroll={3}

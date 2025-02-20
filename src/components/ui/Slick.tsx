@@ -14,7 +14,7 @@ interface CarouselItems {
   responsive?: CarouselResponsiveProps[]
 }
 
-export const Carousel = ({
+export const Slick = ({
   items,
   rows = 1,
   slidesToScroll = 1,

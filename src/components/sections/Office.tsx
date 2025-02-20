@@ -1,4 +1,4 @@
-import { Carousel } from '@/components/ui/Carousel'
+import { Slick } from '@/components/ui/Slick'
 
 export const Office = () => {
   const images = [
@@ -14,7 +14,7 @@ export const Office = () => {
         Nosso Escritório
       </h2>
 
-      <Carousel
+      <Slick
         slidesToShow={3}
         slidesToScroll={3}
         items={images.map((image, index) => (
