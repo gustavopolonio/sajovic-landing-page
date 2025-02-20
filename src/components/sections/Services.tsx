@@ -1,4 +1,4 @@
-import { Carousel } from '@/components/ui/Carousel'
+import { Carousel } from '../ui/Carousel'
 import { ServiceCard } from '@/components/ui/ServiceCard'
 
 const services = [
