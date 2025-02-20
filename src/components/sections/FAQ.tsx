@@ -1,4 +1,4 @@
-import { Collapse } from '../ui/Collapse'
+import { Collapse } from '@/components/ui/Collapse'
 
 const faqItems = [
   {

@@ -1,4 +1,4 @@
-import { Carousel } from '../ui/Carousel'
+import { Carousel } from '@/components/ui/Carousel'
 
 export const Office = () => {
   const images = [
