@@ -1,5 +1,5 @@
 import { ServiceCard } from '@/components/ui/ServiceCard'
-import { Carousel } from '../ui/Carousel'
+// import { Carousel } from '../ui/Carousel'
 
 const services = [
   {
@@ -74,7 +74,7 @@ export const Services = () => {
         Nossos Serviços
       </h2>
 
-      <Carousel
+      {/* <Carousel
         rows={2}
         slidesToShow={3}
         slidesToScroll={3}
@@ -97,7 +97,7 @@ export const Services = () => {
             },
           },
         ]}
-      />
+      /> */}
     </section>
   )
 }
