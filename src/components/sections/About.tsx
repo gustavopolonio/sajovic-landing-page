@@ -10,21 +10,21 @@ export const About = () => {
             <h2 className="text-[32px] font-bold max-lg:leading-[34px] max-lg:text-[25.6px] max-md:max-w-full max-md:text-[20px]">
               Dr. Gabriel Sajovic Pereira - OAB/SP 468.830
             </h2>
-            <p className="leading-7 mt-8 max-lg:text-[17.6px] max-lg:leading[25px] max-lg:mt-[25.6px] max-md:max-w-full max-md:text-sm max-md:mt-[20px]">
+            <p className="leading-7 mt-8 max-lg:text-[17.6px] max-lg:leading[25px] max-lg:mt-[25.6px] max-md:max-w-full max-md:text-base max-md:mt-[20px]">
               Advogado Criminalista especialista em Direito Penal, Processo
               Penal e Execução Penal.
             </p>
-            <p className="leading-7 mt-[9.6px] max-lg:text-[17.6px] max-lg:leading[25px] max-md:max-w-full max-md:text-sm max-md:mt-[7px]">
+            <p className="leading-7 mt-[9.6px] max-lg:text-[17.6px] max-lg:leading[25px] max-md:max-w-full max-md:text-base max-md:mt-[7px]">
               Pós-Graduado em Ciências Penais pela Escola Superior de Advocacia
               (ESA) e conta com diversos cursos práticos e teóricos de
               especialização realizados.
             </p>
-            <p className="leading-7 mt-[9.6px] max-lg:text-[17.6px] max-lg:leading[25px] max-md:max-w-full max-md:text-sm max-md:mt-[7px]">
+            <p className="leading-7 mt-[9.6px] max-lg:text-[17.6px] max-lg:leading[25px] max-md:max-w-full max-md:text-base max-md:mt-[7px]">
               Com ampla experiência na Advocacia Criminal, destaca-se pela
               competência técnica e pelo compromisso na defesa de seus clientes,
               sempre pautado pela ética, humanidade e excelência profissional.
             </p>
-            <p className="leading-7 mt-[9.6px] max-lg:text-[17.6px] max-lg:leading[25px] max-md:max-w-full max-md:text-sm max-md:mt-[7px]">
+            <p className="leading-7 mt-[9.6px] max-lg:text-[17.6px] max-lg:leading[25px] max-md:max-w-full max-md:text-base max-md:mt-[7px]">
               Seu trabalho abrange temas como execução penal, lei de drogas,
               crimes econômicos, recursos processuais, lei maria da penha,
               relaxamento de prisão, habeas corpus e tribunal do júri. Essa
