@@ -68,7 +68,7 @@ export const Services = () => {
   return (
     <section
       id="services"
-      className="py-16 max-w-[1080px] mx-auto max-lg:px-4 max-lg:py-[51.2px] max-md:py-10"
+      className="py-16 max-w-[1080px] mx-auto max-lg:px-4 max-lg:py-[51.2px] max-md:py-10 max-md:scroll-mt-[74.61px]"
     >
       <h2 className="font-serif text-black text-[40px] font-bold text-center mb-2 max-lg:text-[32px] max-md:mb-0 max-md:text-[25.6px]">
         Nossos Serviços

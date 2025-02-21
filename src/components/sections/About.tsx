@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="w-full max-w-[1080px] mx-auto px-4 py-16 max-lg:py-[51.2px] max-md:py-10"
+      className="w-full max-w-[1080px] mx-auto px-4 py-16 max-lg:py-[51.2px] max-md:py-10 max-md:scroll-mt-[74.61px]"
     >
       <div className="gap-5 flex items-center max-lg:items-start max-md:items-stretch max-md:gap-4 max-sm:flex-col">
         <div className="w-[68%] max-md:w-full max-md:ml-0">

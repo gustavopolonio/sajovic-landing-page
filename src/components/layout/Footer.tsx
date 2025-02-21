@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer
       id="contact"
-      className="bg-black text-white py-10 bg-[url(/footerBackground.jpg)] bg-cover bg-center bg-no-repeat"
+      className="bg-black text-white py-10 bg-[url(/footerBackground.jpg)] bg-cover bg-center bg-no-repeat max-md:scroll-mt-[74.61px]"
     >
       <div className="max-w-[1080px] mx-auto px-4">
         <div className="flex flex-col justify-between gap-8 md:flex-row">

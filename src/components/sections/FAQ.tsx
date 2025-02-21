@@ -121,7 +121,7 @@ export const FAQ = () => {
   return (
     <section
       id="faq"
-      className="py-16 max-w-[1080px] mx-auto max-lg:py-[51.2px] max-lg:px-4"
+      className="py-16 max-w-[1080px] mx-auto max-lg:py-[51.2px] max-lg:px-4 max-md:scroll-mt-[74.61px]"
     >
       <h2 className="font-serif text-black text-[40px] font-bold text-center mb-8 max-lg:text-[32px] max-lg:mb-[25.6px]">
         Perguntas Frequentes
