@@ -62,6 +62,10 @@ const services = [
     icon: '/investigation.png',
     title: 'Análise processual',
   },
+  {
+    icon: '/law2.png',
+    title: 'Tribunal do júri',
+  },
 ]
 
 export const Services = () => {

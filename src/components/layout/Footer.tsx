@@ -49,7 +49,7 @@ export const Footer = () => {
               <div>
                 <p>Horário de atendimento</p>
                 <p>Segunda a Sexta: 9h às 17hrs</p>
-                <p>Mediante Agendamento prévio</p>
+                <p>Mediante agendamento prévio</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
