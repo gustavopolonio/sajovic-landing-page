@@ -6,7 +6,7 @@ import { About } from '@/components/sections/About'
 import { FAQ } from '@/components/sections/FAQ'
 import { Office } from '@/components/sections/Office'
 import { HighlightedText } from '@/components/layout/HighlightedText'
-import sectionBgImage from '/sectionBgImage.png'
+import sectionBgImage from '/sectionBgImage.avif'
 import { Link } from 'react-router-dom'
 import { WhatsAppButton } from '@/components/layout/WhatsAppButton'
 

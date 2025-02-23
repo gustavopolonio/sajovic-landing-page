@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import WhatsAppLogo from '/whatsapp.png'
-import heroImage from '/hero.png'
+import heroImage from '/hero.avif'
 
 export const Hero = () => {
   return (

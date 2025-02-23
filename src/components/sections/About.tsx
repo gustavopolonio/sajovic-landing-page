@@ -37,7 +37,7 @@ export const About = () => {
         <div className="w-[32%] ml-5 max-md:w-full max-md:ml-0">
           <img
             loading="lazy"
-            src="/gabriel-sajovic.jpg"
+            src="/gabriel-sajovic.avif"
             className="w-full grow rounded-xl shadow-[4px_4px_2px_rgba(0,0,0,0.25)]"
             alt="Dr. Gabriel Sajovic Pereira"
           />

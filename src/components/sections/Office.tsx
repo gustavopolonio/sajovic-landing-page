@@ -2,10 +2,10 @@ import { Slick } from '@/components/ui/Slick'
 
 export const Office = () => {
   const images = [
-    '/office1.jpg',
-    '/office2.jpg',
-    '/office3.jpg',
-    '/office4.jpg',
+    '/office1.avif',
+    '/office2.avif',
+    '/office3.avif',
+    '/office4.avif',
   ]
 
   return (
