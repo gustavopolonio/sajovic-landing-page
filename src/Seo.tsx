@@ -22,7 +22,10 @@ export const Seo = () => {
         property="og:description"
         content="Sajovic,Sociedade de Advogados,Administrativo,Consumeirista,Direito Bancário e Operações Financeiras,Direito civil,Contratual e Imobiliário,Direito Societário,Extrajudicial,Família e Sucessões,Trabalhista,Advocacia Criminal Especializada,Audiência de custódia,Habeas corpus,Violência doméstica,Assistente de acusação,Advogados,Gabriel Sajovic"
       />
-      <meta property="og:url" content="" />
+      <meta
+        property="og:url"
+        content="https://www.advocaciacriminalsajovic.com.br/"
+      />
       <meta property="og:type" content="website" />
     </Helmet>
   )
